@@ -1,5 +1,25 @@
 # CivicWave
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white" alt="Expo">
+  <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase">
+  <img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Google Gemini">
+  <img src="https://img.shields.io/badge/Leaflet-199900?style=for-the-badge&logo=leaflet&logoColor=white" alt="Leaflet">
+  <img src="https://img.shields.io/badge/Telegram_Bot-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram Bot">
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/platform-iOS%20%7C%20Android%20%7C%20Web-555?style=for-the-badge" alt="Platforms">
+  <img src="https://img.shields.io/badge/license-MIT-3DA639?style=for-the-badge" alt="License: MIT">
+  <img src="https://img.shields.io/badge/language-Azerbaijani-509E2F?style=for-the-badge" alt="Language: Azerbaijani">
+  <img src="https://img.shields.io/badge/status-prototype-orange?style=for-the-badge" alt="Status">
+</p>
+
 A civic issue–reporting platform for the Nərimanov district of Baku, Azerbaijan. Citizens photograph a street problem; an AI model classifies it; the report lands in a shared Firebase backend; and a role-based web command center lets municipal staff triage, assign, and resolve it. Three clients write to and read from one database, so the whole loop — report → triage → fix → status update — stays in sync in near real time.
 
 The project ships as three independent apps that share a single Firebase project:
