@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+<title>CivicWave — Komanda Mərkəzi</title>
+<meta name="description" content="Nərimanov Rayonu — Vətəndaş müraciətlərinin idarəetmə paneli" />
+
+<!-- Fonts — DM Serif Display (editorial headings) + Inter (legible UI/text) -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet" />
+
+<!-- Leaflet (light CARTO basemap) -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+<link rel="stylesheet" href="styles.css?v=15" />
+</head>
+<body>
+
+<div class="app" id="app">
+
+  <!-- ===================== SIDEBAR ===================== -->
+  <aside class="sidebar">
+    <div class="brand">
+      <img src="gerb.svg" alt="Nərimanov Rayonu Gerbi" class="brand__gerb">
+      <div class="brand__text">
+        <span class="brand__name">Zəngəzur Panel</span>
+        <span class="brand__sub">Nərimanov Rayonu</span>
+      </div>
+    </div>
+
+    <nav class="nav" id="nav"><!-- nav rendered by JS --></nav>
+
+    <div class="sidebar__foot">
+      <button class="rolecard" id="roleCard" aria-haspopup="true">
+        <span class="rolecard__avatar" id="roleAvatar">AA</span>
+        <span class="rolecard__meta">
+          <span class="rolecard__name" id="roleName">Aysel Abbasova</span>
+          <span class="rolecard__role" id="roleTitle">Rayon Meneceri</span>
+        </span>
+        <svg class="rolecard__caret" viewBox="0 0 16 16" fill="none"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <div class="rolemenu" id="roleMenu" hidden><!-- roles rendered by JS --></div>
+    </div>
+  </aside>
+
+  <!-- ===================== MAIN ===================== -->
+  <main class="main">
+
+    <!-- Topbar -->
+    <header class="topbar">
+      <div class="topbar__title">
+        <span class="topbar__eyebrow" id="viewEyebrow">Komanda Mərkəzi</span>
+        <h1 class="topbar__h1" id="viewTitle">Ümumi Baxış</h1>
+      </div>
+
+      <div class="topbar__tools">
+        <label class="search">
+          <svg viewBox="0 0 18 18" fill="none"><circle cx="8" cy="8" r="5.2" stroke="currentColor" stroke-width="1.6"/><path d="M12.2 12.2L16 16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+          <input id="globalSearch" type="text" placeholder="İD, ünvan və ya açar söz axtar…" autocomplete="off" />
+          <kbd>/</kbd>
+        </label>
+      </div>
+    </header>
+
+    <!-- View container -->
+    <section class="view" id="view"><!-- rendered by JS --></section>
+
+  </main>
+</div>
+
+<!-- ===================== TOASTS ===================== -->
+<div class="toasts" id="toasts" aria-live="polite"></div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="firebase-config.js?v=14"></script>
+<script src="gemini-config.js?v=14"></script>
+<script src="gemini.js?v=14"></script>
+<script src="app.js?v=14"></script>
+<script src="firebase.js?v=14"></script>
+</body>
+</html>
