@@ -70,35 +70,72 @@ The mobile app prefers `statusText` (it disambiguates *pending* from *rejected*)
 
 ### Mobile Application
 
-![App screen 1](assets/app1.jpeg)
-![App screen 2](assets/app2.jpeg)
-![App screen 3](assets/app3.jpeg)
-![App screen 4](assets/app4.jpeg)
-![App screen 5](assets/app5.jpeg)
-![App screen 6](assets/app6.jpeg)
-![App screen 7](assets/app7.jpeg)
-![App screen 8](assets/app8.jpeg)
-![App screen 9](assets/app9.jpeg)
-![App screen 10](assets/app10.jpeg)
-![App screen 11](assets/app11.jpeg)
-![App screen 12](assets/app12.jpeg)
-![App screen 13](assets/app13.jpeg)
+The citizen journey, left to right:
+
+<table>
+  <tr>
+    <td align="center"><img src="assets/app1.jpeg" width="150"><br><sub><b>1</b></sub></td>
+    <td align="center">→</td>
+    <td align="center"><img src="assets/app2.jpeg" width="150"><br><sub><b>2</b></sub></td>
+    <td align="center">→</td>
+    <td align="center"><img src="assets/app3.jpeg" width="150"><br><sub><b>3</b></sub></td>
+    <td align="center">→</td>
+    <td align="center"><img src="assets/app4.jpeg" width="150"><br><sub><b>4</b></sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="assets/app5.jpeg" width="150"><br><sub><b>5</b></sub></td>
+    <td align="center">→</td>
+    <td align="center"><img src="assets/app6.jpeg" width="150"><br><sub><b>6</b></sub></td>
+    <td align="center">→</td>
+    <td align="center"><img src="assets/app7.jpeg" width="150"><br><sub><b>7</b></sub></td>
+    <td align="center">→</td>
+    <td align="center"><img src="assets/app8.jpeg" width="150"><br><sub><b>8</b></sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="assets/app9.jpeg" width="150"><br><sub><b>9</b></sub></td>
+    <td align="center">→</td>
+    <td align="center"><img src="assets/app10.jpeg" width="150"><br><sub><b>10</b></sub></td>
+    <td align="center">→</td>
+    <td align="center"><img src="assets/app11.jpeg" width="150"><br><sub><b>11</b></sub></td>
+    <td align="center">→</td>
+    <td align="center"><img src="assets/app12.jpeg" width="150"><br><sub><b>12</b></sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="assets/app13.jpeg" width="150"><br><sub><b>13</b></sub></td>
+  </tr>
+</table>
 
 ### Web Dashboard
 
-![Dashboard 1](assets/website1.png)
-![Dashboard 2](assets/website2.png)
-![Dashboard 3](assets/website3.png)
-![Dashboard 4](assets/website4.png)
-![Dashboard 5](assets/website5.png)
+<table>
+  <tr>
+    <td align="center"><img src="assets/website1.png" width="155"><br><sub><b>1</b></sub></td>
+    <td align="center">→</td>
+    <td align="center"><img src="assets/website2.png" width="155"><br><sub><b>2</b></sub></td>
+    <td align="center">→</td>
+    <td align="center"><img src="assets/website3.png" width="155"><br><sub><b>3</b></sub></td>
+    <td align="center">→</td>
+    <td align="center"><img src="assets/website4.png" width="155"><br><sub><b>4</b></sub></td>
+    <td align="center">→</td>
+    <td align="center"><img src="assets/website5.png" width="155"><br><sub><b>5</b></sub></td>
+  </tr>
+</table>
 
 ### Telegram Bot
 
-![Telegram bot 1](assets/telegrambot1.jpeg)
-![Telegram bot 2](assets/telegrambot2.jpeg)
-![Telegram bot 3](assets/telegrambot3.jpeg)
-![Telegram bot 4](assets/telegrambot4.jpeg)
-![Telegram bot 5](assets/telegrambot5.jpeg)
+<table>
+  <tr>
+    <td align="center"><img src="assets/telegrambot1.jpeg" width="150"><br><sub><b>1</b></sub></td>
+    <td align="center">→</td>
+    <td align="center"><img src="assets/telegrambot2.jpeg" width="150"><br><sub><b>2</b></sub></td>
+    <td align="center">→</td>
+    <td align="center"><img src="assets/telegrambot3.jpeg" width="150"><br><sub><b>3</b></sub></td>
+    <td align="center">→</td>
+    <td align="center"><img src="assets/telegrambot4.jpeg" width="150"><br><sub><b>4</b></sub></td>
+    <td align="center">→</td>
+    <td align="center"><img src="assets/telegrambot5.jpeg" width="150"><br><sub><b>5</b></sub></td>
+  </tr>
+</table>
 
 ---
 
