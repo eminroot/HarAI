@@ -20,6 +20,10 @@
   <img src="https://img.shields.io/badge/status-prototype-orange?style=for-the-badge" alt="Status">
 </p>
 
+<p align="center">
+  <img src="assets/readmeimage.png" width="100%" alt="CivicWave — concept overview">
+</p>
+
 A civic issue–reporting platform for the Nərimanov district of Baku, Azerbaijan. Citizens photograph a street problem; an AI model classifies it; the report lands in a shared Firebase backend; and a role-based web command center lets municipal staff triage, assign, and resolve it. Three clients write to and read from one database, so the whole loop — report → triage → fix → status update — stays in sync in near real time.
 
 The project ships as three independent apps that share a single Firebase project:
