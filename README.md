@@ -243,4 +243,3 @@ This started as a hackathon prototype. Before any production use:
 
 - **Lock down Firebase rules.** The Realtime Database and Storage rules are open for the demo; require authentication and validate writes.
 - **Proxy AI calls.** Gemini keys are currently used client-side. Move those calls behind a backend so the key is never shipped to a browser or app bundle.
-- **Rotate any key** that was previously committed to git history.
